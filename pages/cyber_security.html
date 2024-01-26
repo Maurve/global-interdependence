@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="../index.html" class="name">Global Interdependence</a>
+        <div>
+            <ul class="links">
+                <li><a href="global_economy.html">Global Economy</a></li>
+                <li><a href="cyber_security.html" class="active">Cyber Security</a></li>
+                <li><a href="food_supply.html">Food Supply</a></li>
+                <li><a href="environment.html">Environment</a></li>
+                <li><a href="communication.html">Communication</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <a href="../index.html" class="name">Global Interdependence</a>
+        <div class="mobile-menu">
+          <div class="mobile-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="global_economy.html" onclick="toggleMenu()">Global Economy</a></li>
+            <li><a href="cyber_security.html" onclick="toggleMenu()" class="active">Cyber Security</a></li>
+            <li><a href="food_supply.html" onclick="toggleMenu()">Food Supply</a></li>
+            <li><a href="environment.html" onclick="toggleMenu()">Environment</a></li>
+            <li><a href="communication.html" onclick="toggleMenu()">Communication</a></li>
+          </div>
+        </div>
+    </nav>
+    <section>
+        <div class="information">
+            <p class="title">Cyber Security and Globalization</p>
+            <p class="text">
+                Unlike having a global economy, globalization has done more harm than good when it comes to cyber security.
+                Since organizations and societies across the world have come, cyberattacks occur at a frequency rate of just every two seconds.
+                The average cost of ransomware attacks is $4.54 million and may keep going up.
+                This happens a lot because organizations don't take into account the third-party suppliers.
+                After cyberattacks, business face a ton of damage to their servers networks, and personal devices.
+            </p>
+            <p class="text">
+                In February 2016, hackers targeted a bank in Bangladesh and tried to steal $1 billion. They were stopped somewhat, but they stole $101 million, which is still a lot.
+                Christine Lagarde, president of the European Central Bank, warned that a cyberattack could cause a financial crisis in the continent.
+                The global financial system was actually undergoing digital transformation in Spring of 2021. 
+                Hackers were taking advantage of this and were posing a greater threat to the financial system.
+            </p>
+            <p class="text">
+                Organizations have been using global partners a lot more because of globalization. 
+                They tend to share highly sensitive information with suppliers and can be fully unaware of it. 
+                Steps to keep organizations safe from cyberattacks include reviewing every supplier, identifying key suppliers through security risk assessments,
+                making cybersecurity requirements a part of your third-party supplier contracts, ensuring suppliers comply with well-known cybersecurity frameworks,
+                reviewing the supply chain's parters' connectivity with your systems, making sure data is encrypted, protecting data and third-parties' access to your platforms,
+                verifying that third-party suppliers are safeguarding, requiring suppliers to provide their cybersecurity measures,
+                documenting risk elements, and training employees on how to spot a cyberattack risk and show them how to make sure it doesn't harm them.
+            </p><br><br>
+            <a id="i1" href="https://www.bsigroup.com/en-US/blog/Digital-trust-blog/2022/how-to-protect-your-supply-chain-from-disruptive-cyber-attacks-part-1-how-specialization-is-affecting-cyber-security/" target="_blank">Source 1</a>
+            <a id="i1" href="https://www.imf.org/external/pubs/ft/fandd/2021/03/global-cyber-threat-to-financial-systems-maurer.htm" target="_blank">Source 2</a>
+            <p id="i2">
+                Click the image below to open it in a new tab.
+            </p>
+            <img class="info__image" src="../img/cyber_security.png" width="600" height="500" onclick="window.open(this.src)">
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>

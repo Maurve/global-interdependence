@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Supply</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="../index.html" class="name">Global Interdependence</a>
+        <div>
+            <ul class="links">
+                <li><a href="global_economy.html">Global Economy</a></li>
+                <li><a href="cyber_security.html">Cyber Security</a></li>
+                <li><a href="food_supply.html" class="active">Food Supply</a></li>
+                <li><a href="environment.html">Environment</a></li>
+                <li><a href="communication.html">Communication</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <a href="../index.html" class="name">Global Interdependence</a>
+        <div class="mobile-menu">
+          <div class="mobile-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="global_economy.html" onclick="toggleMenu()">Global Economy</a></li>
+            <li><a href="cyber_security.html" onclick="toggleMenu()">Cyber Security</a></li>
+            <li><a href="food_supply.html" onclick="toggleMenu()" class="active">Food Supply</a></li>
+            <li><a href="environment.html" onclick="toggleMenu()">Environment</a></li>
+            <li><a href="communication.html" onclick="toggleMenu()">Communication</a></li>
+          </div>
+        </div>
+    </nav>
+    <section>
+        <div class="information">
+            <p class="title">Food Supply and Globalization</p>
+            <p class="text">
+                The foreign restaurants you see in this country are from globalization. It can even be nachos or french fries that were from other countries.
+                This isn't new either. As long as chefs have been cooking, they've been looking across the globe for ingredients and new ideas.
+            </p>
+            <p class="text">
+                A supermarket without sushi would seem impossible, especially for younger people. Most of the American population had never tried it over two generations ago.
+                Sushi was not popular in the biggest cities until the 1980s. The popularity then exploded years after that. 
+                Just this past year, Americans purchased over 43.7 million servings of sushi at stores, which is more than 50 percent in volume and 72 percent in value
+                since 2019. Kroger also sells more than 40 million pieces of sushi a year.
+            </p>
+            <p class="text">
+                During the same time period, American restaurants have gone to selling almost every food from every major country on Earth.
+                There are over 311 cuisine categories for restaurants in the United States, which is almost double than it was five years ago (157).
+                When India's economy opened in the 1990s, Domino's was one of the first companies to join their food market and have exploded in sales since.
+                There are special toppings that they put on their pizzas there that the United States didn't do with their pizzas at Domino's.
+            </p>
+            <p class="text">
+                Pakistan brought in Philly cheesesteaks, and several Pakistani restaurants have featured them on their menus since 1995.
+                After 9/11, the bond between Pakistan and the United States further familiarized Pakistanis with cheesesteak, and many of them have learned how to make it 
+                themselves. There is a restaurant called "Philly's Steak Sandwich" in Lahore, which opened after a traveler from Philadelphia showed a video of a cheesesteak to a 
+                chef.
+            </p>
+            <p class="text">
+                This trend has existed for a long time. The silk road had pasta made in China made its way all the way to Italy. Now that transportation and communication are
+                a lot easier, food all over the globe is being shared by different countries.
+            </p><br><br>
+            <a id="i1" href="https://www.cato.org/publications/trade-cuisine" target="_blank">Source</a>
+            <p id="i2">
+                Click the images below to open them in a new tab.
+            </p>
+            <img class="info__image" src="../img/food_supply.jpg" width="600" height="500" onclick="window.open(this.src)">
+            <img class="info__image" src="../img/food_supply2.jpg" width="600" height="500" onclick="window.open(this.src)">
+            <img class="info__image" src="../img/food_supply3.jpg" width="600" height="500" onclick="window.open(this.src)">
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>
